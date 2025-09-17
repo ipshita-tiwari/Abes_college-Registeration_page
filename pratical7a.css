@@ -1,0 +1,37 @@
+        .repeat {
+            background-image:url(pictures/codechef\ image.jpeg);
+            background-repeat: repeat;
+            height: 200px;
+            width: 400px;
+            border: 2px solid #000;
+            
+        }
+
+        .repeat-x {
+            background-image: url(pictures/codechef\ image.jpeg);
+            background-repeat: repeat-x;
+            height: 200px;
+            width: 400px;
+            border: 2px solid #000;
+           
+        }
+
+        .repeat-y {
+            background-image: url(pictures/codechef\ image.jpeg);
+            background-repeat: repeat-y;
+            height: 200px;
+            width: 400px;
+            border: 2px solid #000;
+            
+        }
+
+        .no-repeat {
+            background-image: url(pictures/codechef\ image.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover; /* Adjust to fit container */
+            height: 200px;
+            width: 400px;
+            border: 2px solid #000;
+        }
+    

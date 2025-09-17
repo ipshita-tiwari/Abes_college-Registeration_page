@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .blink {
+            animation: blinker 1.5s linear infinite;
+            color: purple;
+            font-size: 1.3em;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body style="background-image:url(college.jpg);">
+    <table border="2" width="100%">
+        <tr>
+            <th style="color: white; background-color: blueviolet;">BOOK NAME</th>
+            <th style="color: white; background-color: blueviolet;">PRICE</th>
+            <th style="color: white; background-color: blueviolet;">QUANTITY</th>
+            <th style="color: white; background-color: blueviolet;">AMOUNT</th>
+        </tr>
+        <tr>
+            <td align="center" style="color: white; background-color: blueviolet;">Java2</td>
+            <td align="center" style="color: white; background-color: blueviolet;">$35</td>
+            <td align="center" style="color: white; background-color: blueviolet;">2</td>
+            <td align="center" style="color: white; background-color: blueviolet;">$70</td>
+        </tr>
+        <tr>
+            <td align="center" style="color: white; background-color: blueviolet;">Python</td>
+            <td align="center" style="color: white; background-color: blueviolet;">$35</td>
+            <td align="center" style="color: white; background-color: blueviolet;">2</td>
+            <td align="center" style="color: white; background-color: blueviolet;">$70</td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3" style="color: white; background-color: blueviolet;">total amount</td>
+            <td align="center" class="blink" style="color: white; background-color: red;">$140</td>
+        </tr>
+    </table>
+</body>
+</html>

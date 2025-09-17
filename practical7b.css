@@ -1,0 +1,25 @@
+  /* changes color */
+a.one:link {color:#ff0000;}
+a.one:visited {color:#0000ff;}
+a.one:hover {color:#ffcc00;}
+a.one:active {color:aquamarine;}
+/* changes font size */
+a.two:link {color:#ff0000;}
+a.two:visited {color:#0000ff;}
+a.two:hover {font-size:150%;}
+a.two:active {color:#ffcc00;background-color: #0000ff;}
+/* changes background color */
+a.three:link {color:#ff0000;}
+a.three:visited {color:#0000ff;}
+a.three:hover {background:#66ff66;}
+a.three:active {color:beige;}
+/* changes font style */
+a.four:link {color:#ff0000;}
+a.four:visited {color:#0000ff;}
+a.four:hover {font-family:monospace;}
+a.four:active {color:aquamarine;}
+/* changes text decoration */
+a.five:link {color:#ff0000;text-decoration:none;}
+a.five:visited {color:#0000ff;text-decoration:none;}
+a.five:hover {text-decoration:underline;}
+a.five:active {color:chartreuse;}
